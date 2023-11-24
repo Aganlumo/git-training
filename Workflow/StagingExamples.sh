@@ -41,3 +41,7 @@ git mv Documentation/file.log Logs/
 
 # Renaming
 git mv foo.txt bar.log
+
+
+# Unstaging changes
+git restore --staged Documentation/requirements.txt
