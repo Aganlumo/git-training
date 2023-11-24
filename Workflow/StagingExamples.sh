@@ -28,11 +28,16 @@ git add -n .
 # Override the .gitignore file and add it anyway
 git add my_log.log --force
 
-
+# Removing files from the index
 # Removing from the staging area
 git rm file
 
 # Removing all from a directory
 git rm -r dir/*
 
+# Renaming or moving files
+# Moving
+git mv Documentation/file.log Logs/
 
+# Renaming
+git mv foo.txt bar.log
